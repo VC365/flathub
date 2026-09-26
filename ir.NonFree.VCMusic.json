@@ -12,7 +12,7 @@
     "--env=LADSPA_PATH=/app/lib/ladspa",
     "--socket=pulseaudio",
     "--filesystem=xdg-music",
-    "--own-name=org.mpris.MediaPlayer2.VCMusic",
+    "--own-name=org.mpris.MediaPlayer2.VCMusic"
   ],
   "cleanup": [
     "/include",
