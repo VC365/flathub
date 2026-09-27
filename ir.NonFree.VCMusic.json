@@ -11,8 +11,7 @@
     "--device=dri",
     "--env=LADSPA_PATH=/app/lib/ladspa",
     "--socket=pulseaudio",
-    "--filesystem=xdg-music",
-    "--own-name=org.mpris.MediaPlayer2.VCMusic"
+    "--filesystem=xdg-music"
   ],
   "cleanup": [
     "/include",
@@ -95,7 +94,7 @@
           "type": "git",
           "url": "https://github.com/VC365/VCMusic.git",
           "tag": "v0.1.0",
-          "commit": "2fe2e23aee7ad24053ba9ba3f57da3f896df6ae4"
+          "commit": "a2a65f39dd9a1e48083e5ca3eaf2b602b848093c"
         },
         {
           "type": "archive",
